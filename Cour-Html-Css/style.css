@@ -24,27 +24,22 @@ body {
 }
 
 .left {
-    height: 450px;
+    height: 1450px;
     width: 200px;
     background-color: black;
-    float: left;
+   
 }
 
 .right {
-    height: 500px;
+    height: 250px;
     width: 150px;
     background-color: rgb(207, 158, 22);
-    float: right;
-    
+    position: absolute;
+    top: 100px;
+    left: 100px;
+ 
 }
+ 
+#container {
 
-.float {
-    height: 100px ;
-    background-color: yellow;
-}
-
-.float-1 {
-    height: 100px ;
-    background-color: rgb(23, 145, 118);
-    clear: both;
 }
