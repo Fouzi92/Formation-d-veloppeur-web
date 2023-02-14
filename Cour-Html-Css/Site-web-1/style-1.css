@@ -1,3 +1,40 @@
-body { 
-    
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+/* font-family: 'Julee', cursive; */
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Ubuntu', sans-serif;
+font-size: 15px;
+}
+
+h1 {
+    font-family: 'Julee', cursive;
+    font-size: 45px;
+    color: #444;
+}
+
+.orange {
+    color: #ff7a00;
+}
+
+
+/* HEADER */
+
+header {
+    height: 120px;
+
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
 }
